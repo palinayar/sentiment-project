@@ -1,6 +1,6 @@
 import os
 from concurrent.futures import ProcessPoolExecutor
-#from concurrent.futures import ThreadPoolExecutor
+#from concurrent.futures import ThreadPoolExecutor # Faster but seems not thread-safe
 from process_csv_file import process_csv_file
 
 DATA_SOURCE_PATH = 'processing_data/'

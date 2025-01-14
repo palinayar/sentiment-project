@@ -71,7 +71,7 @@ def process_csv_file(csv_file, roberta_model, vader_model):
             videos.insert(7, 'tags_neg', tags_neg)
             videos.insert(8, 'tags_neu', tags_neu)
             videos.insert(9, 'tags_pos', tags_pos)
-            videos.insert(9, 'tags_compound', tags_compund)
+            videos.insert(10, 'tags_compound', tags_compund)
 
             # Save processed videos as a file
             videos.to_csv(output_file_path, index=False)
